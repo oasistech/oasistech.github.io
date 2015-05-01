@@ -7,11 +7,33 @@
     <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
     <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="index.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- HEADER -->
-    <div id="header">
+    <div id="header">    
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Project name</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
       <H1>OASIS TECHNOLOGY COMPANY LIMITED</H1>
     </div>
     <!-- SIDEBAR -->    
@@ -28,8 +50,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-  <script src="util/js/jquery.js"></script>
+  <script src="jquery/jquery-1.11.2.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="bootstrap/docs.js"></script>
 
 </html>
