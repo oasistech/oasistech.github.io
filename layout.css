@@ -102,6 +102,11 @@ ul li img {
   cursor: pointer;
 }
 
+.intro_ul li {
+  list-style: circle;
+  margin-bottom: 5px;
+}
+
 /* Custom First Character */
 .firstcharacter { 
   float: left;
